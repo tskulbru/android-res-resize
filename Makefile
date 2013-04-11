@@ -3,7 +3,9 @@ prefix=/usr/local
 # files that need mode 755
 EXEC_FILES=android-res-resize
 
-all:
+default: install
+
+help:
 	@echo "usage: make install"
 	@echo "       make uninstall"
 
